@@ -1,0 +1,369 @@
+
+body{
+    background-color: rgb(253, 253, 253);
+    overflow-y:hidden ;
+}
+
+
+.containera {
+      background-color: #fff;
+      max-width: 725px;
+      height: 600px;
+      border: rgb(206, 206, 206) solid 1px;
+      margin: auto;
+      margin-top: 5%;
+      border-radius: 11px !important;
+      padding: 10px;
+     
+}
+
+
+.logo {
+    font-family: 'Product Sans';
+    font-size: 25px;
+    padding-left: 21px ;
+    padding-top: 25px;
+    font-weight: 1px ;
+}
+
+span {
+    letter-spacing: -.25em;
+}
+
+#G , #g {
+   color: #4285F4;
+}
+
+#o , #e {
+    color:#DB4437 ;
+}
+
+#oo {
+    color: #F4B400;
+}
+
+#l {
+    color:#0F9D58 ;
+}
+
+@font-face {
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+  }
+
+
+  .col {
+     height: 450px;
+  }
+
+  .row {
+    max-width: 725px;
+  }
+
+.text {
+    padding-left: 21px;
+   display: inline;   
+}
+
+
+  .Name {
+    display: inline;
+    width: 100%;
+  }
+
+  .username {
+    position: relative;
+    padding-top: 5px ;
+    padding-left: 21px;
+  }
+
+  .Username {
+    width: 104%;
+  }
+
+  #h {
+    color: rgb(110, 110, 110);
+    padding-left: 9px ;
+    font-size: 12px;
+    font-family: sans-serif;
+  }
+
+  h7 {
+    float: right;
+    position: absolute;
+    left: 71%;
+    font-weight:400;
+    padding-top: 5px;
+    bottom: 70%;
+  }
+
+  input {
+    border: rgb(194, 194, 194) 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+  }
+
+  
+
+
+
+
+  .md-5 {
+
+    background-image: url("https://ssl.gstatic.com/accounts/signup/glif/account.svg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position-y: -15% ;
+  }
+
+
+  #use {
+    color:#3c7be0;
+    padding-top: 3px;
+  }
+
+
+  .text1 {
+    padding-left: 21px;
+   display: inline; 
+  }
+
+
+  p {
+    padding: 0 !important ;
+    margin: 0 !important ;
+  }
+
+  .hh {
+    margin-left: 15px;
+  }
+
+  .col-md-6  {
+    margin: 0 !important;
+    padding: 0 !important;
+    padding-left: 11px !important;
+  }
+
+  
+  .user {
+    padding-left: 21px;
+    display: inline;  
+    padding-right: 0px !important;
+  }
+
+
+      #check {
+        float: left;
+        size: 57px;
+        height: 17px;
+        width: 17px;
+       font-weight:bolder;
+      }
+
+      .check {
+        border: black solid 1px ;
+        border-radius: 3px ;
+        float: left;
+        margin-top:3px ;
+        margin-left: 25px;
+        display: inline;
+      }
+
+      .lp {
+        margin-left: 60px;
+      }
+
+       #lp {
+        padding-bottom: 35px;
+       }
+
+      .nn {
+        margin-bottom: 15px !important;
+      }
+
+      input:focus , .check :hover{
+        border:#4285F4  2px solid;
+        border-radius: 3px;
+        outline: none;
+     }
+
+     input  {
+       display: inline;
+     }
+
+     .btt {
+       margin: 0 !important;
+         margin-top: 70px !important;
+         width: 125px;
+     }
+
+
+   input {
+     border: 1.7px rgb(214, 214, 214) solid ;
+     border-radius:3px
+   }
+
+
+     .btt1  {
+       border: none ;
+       background-color: white;
+       color: #4285F4;
+       font-weight: 600;
+       font-size: 16px;
+       border: #4285F4 transparent  1px;
+       border-radius:3px ;
+       padding: 3px 5px;
+       text-decoration: none;
+       display: inline !important;
+     }
+
+     .btt2 {
+       position: relative !important;
+       right: -90px;
+       background-color: #3a7be4;
+       color: white;
+       padding: 5px 15px ;
+       font-weight: 500;
+       border: #3b78db solid  1px;
+       border-radius:3px ;
+       text-decoration: none;
+     }
+
+
+     .btt1:hover {
+         background-color: #e8ebf0;  
+     }
+
+
+
+
+     @media only screen and (max-width:700px) {
+      .bg {
+        display: none;
+      }
+
+      input { max-width: 423px;
+        display: block;
+      }
+
+      h7 {
+        left: 340px;
+      }
+  
+      .btt2 {
+        position: sticky ; 
+        top: -90% ;
+      }
+
+
+  
+      @media only screen and (min-width:500px) {
+        .Name {
+          margin-bottom: 25px;
+        }
+        
+        input { max-width: 423px;
+          display: block;
+        }
+
+    
+        .btt2 {
+          position: sticky ; 
+          top: -90% ;
+          margin-left:230px ;
+        }
+        .btt1 {
+          margin-right:280px ;
+        }
+
+        .containera {
+          overflow-x: hidden;
+          height: 725px !important;
+          background-color: #fff;
+          border: none !important;
+           border-radius: 0%;
+         padding-bottom: 0%;
+        }
+        .body {
+          height: 100%;
+          width: 725px !important;
+        }
+
+        }
+        footer {
+          margin-top: 130px;
+          margin-left: 5px;
+        }
+      }
+
+
+  
+
+
+
+
+
+
+
+       .footer{
+        display: inline;
+        max-width: 725px !important;
+        margin-left: 400px !important;
+        margin-right: 400px !important;
+      }
+      ul {
+        margin: auto ;
+        display: inline;
+      }
+
+      ul a , ul select{
+        margin-right: 30px;
+        padding-bottom: 30px;
+        text-decoration: none !important;
+        color: gray ;
+        font-size: 13.5px;
+        font-weight: 500;
+        float: right;
+        display: inline;
+        padding-left: 15px;
+      }
+
+
+      select , option {
+        max-width: 150px !important;
+        border: none !important;
+        float: left !important;
+        margin-left: 15px;
+      }
+      
+      #google {
+        text-decoration: none !important;
+      }
+
+      ul {
+        padding-left: 250px; 
+      }
+
+
+      .last   {
+        background-color: #fff !important;
+        max-width: 725px !important;
+        height: 600px !important;
+        border: rgb(206, 206, 206) solid 1px !important;
+       margin: auto !important;
+         margin-top: 5% !important;
+         border-radius: 11px !important;
+       padding: 10px !important;
+      }
+
+
+      h5 {
+        position: relative;
+        top: 50%;
+        text-align: center;
+        font-size: 15px !important;
+        margin: 25px 75px 0px 75px !important;
+      }
